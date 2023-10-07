@@ -1,5 +1,38 @@
 const linuxQuiz = [
   {
+    Question:
+      "In Linux, Which command is used to convert and copy files with specific size?",
+    Answer: "dd",
+    Distractor1: "cp",
+    Distractor2: "mv",
+    Distractor3: "df",
+    Explanation:
+      "The dd command is used to convert data along with copying files of specific size.",
+    Link: "https://www.freecodecamp.org/news/linux-example-bash-command-line/#linux-dd-command-example"
+  },
+  {
+    Question:
+      "In Linux, Which command is used to export variables to child processes?",
+    Answer: "export",
+    Distractor1: "env",
+    Distractor2: "move",
+    Distractor3: "df",
+    Explanation:
+      "The export command is used to export variables to child processes.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-export-command"
+  },
+  {
+    Question:
+      "In Linux, which command option is used to perform a case-insensitive search when searching for text patterns?",
+    Answer: "grep -i",
+    Distractor1: "grep -c",
+    Distractor2: "grep -v",
+    Distractor3: "grep -s",
+    Explanation:
+      "The grep -i command is used to perform a case-insensitive search, allowing you to find text patterns ignoring the case.",
+    Link: "https://man7.org/linux/man-pages/man1/grep.1.html"
+  },
+  {
     Question: "In Linux, which command is used to set limits on a file size?",
     Answer: "ulimit",
     Distractor1: "fsize",
@@ -1288,6 +1321,15 @@ const linuxQuiz = [
     Distractor3: "None of the above",
     Explanation: "elif is an else if statement in Shell Scripting.",
     Link: "https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/"
+  },
+  {
+    Question: "In Linux, Which command is used to stop a running process?",
+    Answer: "kill -9 [process ID]",
+    Distractor1: "pidof [OPTIONS] NAME",
+    Distractor2: "ps -ef",
+    Distractor3: "stop [signal] PID",
+    Explanation: "The kill command is used to stop a running process.",
+    Link: "https://www.linuxfoundation.org/blog/blog/classic-sysadmin-how-to-kill-a-process-from-the-command-line"
   }
 ];
 

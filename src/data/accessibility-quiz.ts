@@ -1,5 +1,34 @@
 const accessibilityQuiz = [
-   {
+  {
+    Question: "What legal repercussions can businesses face for failing to meet website accessibility requirements?",
+    Answer: "Businesses can face lawsuits or financial penalties",
+    Distractor1: "no repercussions",
+    Distractor2: "they will serve 10 years in jail",
+    Distractor3: "they will do 2500 hours of community service",
+    Explanation: "Businesses that fail to meet website accessibility requirements may face lawsuits, financial penalties, and damage to their reputation. Maintaining good accessibility standards is good for everyone in this digital age.",
+    Link: "https://www.freecodecamp.org/news/what-is-website-accessibility-18ce00ec990f/"
+  },
+  {
+    Question: "According to the W3C, which of the following is not a valid guideline for crafting style sheets that enhance accessibility?",
+    Answer:  "Utilize the 'px' unit to define font sizes.",
+    Distractor1: "Ensure there is always a fallback generic font",
+    Distractor2: "Opt for numbers instead of names when specifying colors.",
+    Distractor3: "Ensure consistent 'class' names for the same concept across all style sheets",
+    Explanation: "For setting font sizes, use the 'em' unit and favor relative length units and percentages.",
+    Link: "https://www.w3.org/WAI/GL/WD-WCAG10-TECHS-20000615/css-techniques.html#:~:text=Users%20should%20where%20necessary.,units%20even%20in%20absolute%20positioning."
+  },
+    {
+    Question: "What is the purpose of the 'aria-expanded' attribute in ARIA?",
+    Answer:
+      "To indicate whether an element is open or closed when the visual indicator is not available",
+    Distractor1: "To specify the font size of text on a webpage",
+    Distractor2: "To apply a transition effect to an element's size",
+    Distractor3: "To adjust the spacing between elements on a webpage",
+    Explanation:
+      "The 'aria-expanded' attribute conveys open or closed states for accessibility, aiding users when the visual indicator is not available.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-expanded"
+  },
+  {
     Question: "What is the purpose of the 'aria-label' attribute in ARIA?",
     Answer:
       "To provide a text label for an element when the visible label is not present",
@@ -378,14 +407,14 @@ const accessibilityQuiz = [
   },
   {
     Question:
-      "Which of the following HTML tags does NOT use the autocomplete attribute?",
-    Answer: "<html>",
-    Distractor1: "<input>",
-    Distractor2: "<text>",
+      "Which of the following HTML tags does NOT use the rel attribute?",
+    Answer: "<input>",
+    Distractor1: "<link>",
+    Distractor2: "<area>",
     Distractor3: "<form>",
     Explanation:
-      "The autocomplete attribute can be used in the following HTML elements: <input>, <textarea>, <select> and <form>.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete"
+      "The rel attribute can be used in the following HTML elements: <link>, <a>, <area>, and <form>",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel"
   },
   {
     Question: "What is the function of the contentinfo ARIA role?",
@@ -430,16 +459,43 @@ const accessibilityQuiz = [
     Link: "https://www.w3.org/WAI/cognitive/"
   },
   {
-    Question: "What is keyboard accessibility, and why is it important for web accessibility?",
-    Answer: "Keyboard accessibility refers to the ability to navigate and interact with a website using only the keyboard, without relying on a mouse.",
-    Distractor1: "Keyboard accessibility refers to using specialized keyboards for web browsing.",
-    Distractor2: "Keyboard accessibility is a feature that improves website loading speed.",
-    Distractor3: "Keyboard accessibility is only important for developers, not users.",
+    Question:
+      "In the context of web accessibility, what does 'cognitive accessibility' refer to?",
+    Answer:
+      "Ensuring that web content is easy to understand and use for individuals with cognitive disabilities.",
+    Distractor1: "Making web content more engaging and interactive.",
+    Distractor2: "Enhancing the creativity and aesthetics of web design.",
+    Distractor3: "Providing audio descriptions for video content.",
+    Explanation:
+      "'Cognitive accessibility' refers to the practice of designing and structuring web content in a way that makes it easy to comprehend and navigate for individuals with cognitive disabilities like dyslexia, attention deficit disorders, or intellectual disabilities.",
+    Link: "https://www.w3.org/WAI/cognitive/"
+  },
+  {
+    Question:
+      "What is keyboard accessibility, and why is it important for web accessibility?",
+    Answer:
+      "Keyboard accessibility refers to the ability to navigate and interact with a website using only the keyboard, without relying on a mouse.",
+    Distractor1:
+      "Keyboard accessibility refers to using specialized keyboards for web browsing.",
+    Distractor2:
+      "Keyboard accessibility is a feature that improves website loading speed.",
+    Distractor3:
+      "Keyboard accessibility is only important for developers, not users.",
     Explanation:
       "Keyboard accessibility is a fundamental aspect of web accessibility, as it ensures that websites are usable by a wide range of users, including those with disabilities. Providing keyboard support means implementing focus management, allowing users to navigate through interactive elements, and ensuring that all functionality is accessible via keyboard input.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/Keyboard-navigable_JavaScript_widgets"
+  },
+  {
+    Question:
+    "Which HTML element triggers an action when pressed and is accessible for screen readers?",
+    Answer: "<button>",
+    Distractor1: "<div>",
+    Distractor2: "<span>",
+    Distractor3: "<a>",
+    Explanation:
+    "The <button> element is the appropriate HTML element to create a button that triggers an action when pressed. It is also accessible for screen readers when used correctly with appropriate ARIA attributes.",
+    Link: "https://www.freecodecamp.org/news/html-button-type-how-to-add-buttons-to-your-website/"
   }
-  
 ];
 
 export default accessibilityQuiz;

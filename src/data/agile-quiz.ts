@@ -1,5 +1,15 @@
 const agileQuiz = [
   {
+    Question: "What are the three primary roles in Scrum and their key responsibilities?",
+    Answer: "Product Owner, Scrum Master, and Team Member",
+    Distractor1: "CEO, CTO, web master",
+    Distractor2: "Scrum Master, CFO, CTO",
+    Distractor3: "Product Owner, COO, Scrum Master",
+    Explanation:
+    "The three primary roles in Scrum are Product Owner, Scrum Master, and Team Member. The Product Owner maximizes ROI, the Scrum Master guides team performance, and Team Members have authority over work methods.",
+    Link: "https://www.freecodecamp.org/news/scrum-for-startups-or-for-any-project-for-that-matter-93ad0db17a84/"
+  },
+  {
     Question:
       "What is the core concept behind the Agile development methodology?",
     Answer: "Iterative and incremental development",
@@ -418,6 +428,16 @@ const agileQuiz = [
     Explanation:
       "In Agile, the Product Owner has the ability to cancel a Sprint.",
     Link: "https://scrumguides.org/scrum-guide.html"
+  },
+  {
+    Question: "For Agile teams, the primary measure of progress is:",
+    Answer: "Working software",
+    Distractor1: "Burndown charts",
+    Distractor2: "Kanban board",
+    Distractor3: "Customer satisfaction",
+    Explanation:
+      "Working software is the primary measure of progress in Agile, according to the seventh principle of the Agile Manifesto. This means that Agile teams focus on delivering software that meets the customer’s needs and provides value. By delivering working software frequently, Agile teams can demonstrate their progress and achievements",
+    Link: "https://www.freecodecamp.org/news/you-say-your-team-is-agile-but-that-word-may-not-mean-what-you-think-6dd26eaf9b21/"
   }
 ];
 

@@ -1,5 +1,33 @@
 const generalCSQuiz = [
   {
+    Question: "What is the acceptable range of Balance Factor for an AVL tree?",
+    Answer: "[-1,1]",
+    Distractor1: "[0,1]",
+    Distractor2: "[-1,0]",
+    Distractor3: "None of the above",
+    Explanation: " The self balancing property of an AVL tree is maintained by the balance factor. The value of balance factor should always be -1, 0 or +1",
+    Link: "https://forum.freecodecamp.org/t/algorithms-avl-trees/297458"
+  },
+  {
+    Question: "Which approach involves duplicating the argument's value into the function's formal parameter?",
+    Answer: "Call by Value",
+    Distractor1: "Call by pointer",
+    Distractor2: "Call by reference",
+    Distractor3: "Call by address",
+    Explanation: "In the call-by-value approach, a replica of the argument's value is generated, and any modifications made to the formal parameter within the function do not affect the original argument outside of the function, as the function operates on its own isolated copy of the data.",
+    Link: "https://www.freecodecamp.org/news/understanding-by-reference-vs-by-value-d49139beb1c4/"
+  },
+  {
+    Question: "What does NFC stands for?",
+    Answer: "Near-Field Communication",
+    Distractor1: "Narrow Field Communication",
+    Distractor2: "Near-Fragile Communication",
+    Distractor3: "Nearly Factory Communication",
+    Explanation:
+      "NFC stands for near-field communication and it is the standard for devices to communicate with each other wirelessly from a very close distance.",
+    Link: "https://www.freecodecamp.org/news/what-is-nfc-near-field-communication-uses-chips-tags-and-readers-explained/"
+  },
+  {
     Question: "What is the best algorithm for matrix multiplication?",
     Answer: "Strassen's Algorithm",
     Distractor1: "Multiplication algorithm",
@@ -1457,6 +1485,51 @@ const generalCSQuiz = [
     Distractor3: "number*of*donuts",
     Explanation: "Kebab case separates each lowercase word by dashes.",
     Link: "https://www.freecodecamp.org/news/snake-case-vs-camel-case-vs-pascal-case-vs-kebab-case-whats-the-difference/"
+  },
+  {
+    Question:
+      "Which of the following type of trees is also known as a 'large key' tree?",
+    Answer: "B-Tree",
+    Distractor1: "Binary Search Tree",
+    Distractor2:
+      "Adelson-Velsky and Landis Tree (AVL Tree/Height balanced tree)",
+    Distractor3: "Ternary Tree",
+    Explanation:
+      "B-Trees are identified by their capacity to hold a significant quantity of keys within a single node, leading to their alternative name, large key trees.",
+    Link: "https://www.freecodecamp.org/news/b-tree-self-balancing-search-index-data-structures-explained/"
+  },
+  {
+    Question:
+      "Which data structure is used to implement an auto-complete feature?",
+    Answer: "Trie",
+    Distractor1: "Linked List",
+    Distractor2: "Stack",
+    Distractor3: "Tree",
+    Explanation:
+      "A Trie is a tree based data structure where each node stores a character performing efficient search operations on them",
+    Link: "https://en.wikipedia.org/wiki/Trie"
+  },
+  {
+    Question:
+      "Which of the following tree traversal algorithms has an O(1) space complexity?",
+    Answer: "Morris algorithm",
+    Distractor1: "Bellman-Ford algorithm",
+    Distractor2: "Floyd Warshall algorithm",
+    Distractor3: "Dijkstra's algorithm",
+    Explanation:
+      "Morris traversal is a tree traversal algorithm that does not employ the use of recursion or a stack. In this traversal, links are created as successors and nodes are printed using these links.",
+    Link: "https://en.wikipedia.org/wiki/Tree_traversal#Morris_in-order_traversal_using_threading"
+  },
+  {
+    Question:
+      "Which of the following search algorithms is best for finding the minimum or maximum of an unimodal function?",
+    Answer: "Ternary Search",
+    Distractor1: "Binary Search",
+    Distractor2: "Linear Search",
+    Distractor3: "Sentinel Linear Search",
+    Explanation:
+      "Ternary Search is similar to binary search but distinguishes itself through a trisection approach giving us three possibilities for the two points m1 and m2 f(m1) < f(m2), f(m1) > f(m2), f(m1) = f(m2)",
+    Link: "https://en.wikipedia.org/wiki/Ternary_search"
   }
 ];
 
